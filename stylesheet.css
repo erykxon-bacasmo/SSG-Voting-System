@@ -1,0 +1,125 @@
+.panel-heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flx-cntner {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.flx-cntner > div {
+    width: 120px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.flx-cntner > div:nth-child(3) {
+    line-height: 100px;
+    margin-left: 15%;
+}
+
+.btn.btn-success.ballot {
+    margin-top: 5px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.btn.btn-success {
+    margin-top: -15px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.btn.btn-danger {
+    margin-top: -15px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+@media (max-width: 425px){
+    .flx-cntner {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+    
+    .flx-cntner > div {
+        width: 140px;
+        margin-left: 20px;
+        align-items:  center;
+    }
+
+    .flx-cntner > div:nth-child(3) {
+        position: absolute;
+        margin-left: 60%;
+    }
+
+    button.btn.btn-success.ballot {
+        margin-top: -10%;
+        margin-bottom: 15%;
+        padding: 10px;
+        border: 2px solid red;
+    }
+
+    /* .col-lg-6:nth-child(14){ 
+        margin-left: 0px;
+    } */
+
+    /* .btn-success{
+        margin-top: 50px;
+        border: 1px solid red;
+} */
+
+    /* .col-lg-8 {
+        margin-left: 300px;
+    } */
+}
+    /* For the vote_result */
+@media (min-width: 425px){
+    .col-lg-8 {
+        margin-right: 40px;
+        margin-left: 40px; 
+    }
+}
+
+@media (min-width: 768px){
+    .col-lg-8 {
+        margin-right: 90px;
+        margin-left: 90px ;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-lg-8 {
+        margin-right: 160px;
+        margin-left: 160px;
+    }
+}
+
+@media (min-width: 1440px){
+    .col-lg-8 {
+        /* border: 1px solid red; */
+        left: 6%;
+    }
+}
+@media (max-width: 1440px){
+    .col-lg-8 {
+        /* border: 1px solid red; */
+    }
+}
+
+/* .col-lg-6:nth-child(14) {
+    border: 1px solid red;
+    margin-left:350px;
+}
+
+.btn-success{
+        margin-top: 100px;
+        border: 1px solid red;
+} */
+

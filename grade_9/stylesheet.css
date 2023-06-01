@@ -1,0 +1,230 @@
+
+.panel-heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flx-cntner {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.flx-cntner > div {
+    width: 120px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.flx-cntner > div:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.flx-cntner > div:nth-child(3) {
+    line-height: 100px;
+    margin-left: 15%;
+}
+
+/* .btn.btn-success.ballot {
+    margin-top: 5px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    border: 2px solid red;
+} */
+
+.btn.btn-success {
+    margin-top: -15px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.btn.btn-danger {
+    margin-top: -15px;
+    margin-bottom: 20px ;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+/* For the vote.php and vote_result.php */
+@media (max-width: 425px){
+    .flx-cntner {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+    
+    .flx-cntner > div {
+        width: 140px;
+        margin-left: 20px;
+        align-items:  center;
+    }
+
+    .flx-cntner > div:nth-child(3) {
+        position: absolute;
+        margin-left: 60%;
+    }
+
+}
+
+@media (min-width: 425px){
+    .col-lg-8 {
+        margin-right: 40px;
+        margin-left: 40px; 
+    }
+
+    button.btn.btn-success.ballot {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+}
+
+@media (min-width: 768px){
+    .col-lg-8 {
+        margin-right: 120px;
+        margin-left: 120px ;
+    }
+
+    .flx-cntner > div {
+        width: 120px;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+
+    button.btn.btn-success.ballot {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .panel.panel-primary {
+        width: 100%;
+    }
+
+    .flx-cntner > div {
+        width: 120px;
+        margin-left: 150px;
+        text-align: center;
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+    
+    .flx-cntner > div:nth-child(3) {
+        line-height: 100px;
+        margin-left: 15%;
+    }
+
+    .col-lg-8 {
+        margin-right: 160px;
+        margin-left: 160px;
+    }
+
+    button.btn.btn-success.ballot {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .flx-cntner > div {
+        width: 120px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+    
+    .flx-cntner > div:nth-child(3) {
+        line-height: 100px;
+        margin-left: 15%;
+    }
+    .col-lg-8 {
+        margin-left: 225px;
+    }
+
+    .col-lg-6:nth-child(9){
+        /* border: 2px solid black; */
+        margin-left: 330px;
+
+    }
+
+    button.btn.btn-success.ballot {
+        /* margin-top: 30px;
+        margin-right: 250px;
+        margin-bottom: 50px;
+        margin-left: 250px; */
+        margin: 20px 250px 50px 250px ;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .col-lg-8 {
+        /* border: 1px solid red; */
+        margin-left: 250px;
+    }
+
+    .col-lg-6:nth-child(9){
+        /* border: 2px solid black; */
+        margin-left: 360px;
+
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+
+    .flx-cntner > div {
+        width: 120px;
+        margin-left: 75px;
+        text-align: center;
+    }
+}
+
+/* .col-lg-6:nth-child(14) {
+    border: 1px solid red;
+    margin-left:350px;
+}
+
+.btn-success{
+        margin-top: 100px;
+        border: 1px solid red;
+} */
+
+@media (min-width: 1660px){
+    .col-lg-8 {
+        /* border: 1px solid red; */
+        margin-left: 280px;
+    }
+
+    .col-lg-6:nth-child(9){
+        /* border: 2px solid black; */
+        margin-left: 420px;
+
+    }
+
+    .flx-cntner > div {
+        width: 120px;
+        margin-left: 110px;
+        text-align: center;
+    }
+
+    .flx-cntner > div:nth-child(2) {
+        margin-top: -17px;
+    }
+}
